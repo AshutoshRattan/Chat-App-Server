@@ -15,7 +15,7 @@ const userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-    min: 4,
+    min: 1,
   },
   isAvatarImageSet: {
     type: Boolean,
