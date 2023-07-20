@@ -5,7 +5,7 @@ const MessageSchema = mongoose.Schema(
     message: {
       text: { type: String, required: true },
     },
-    users: Array,
+    users: Array, // can be made better
     
     sender: {
       type: mongoose.Schema.Types.ObjectId,
